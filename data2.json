@@ -1,0 +1,1 @@
+{"schema":{"type":"struct","fields":[{"type":"int32","optional":true,"field":"id"},{"type":"string","optional":true,"field":"name"},{"type":"int32","optional":true,"field":"price"}],"optional":false,"name":"mydbv3.inventory.product.Value"},"payload":{"id":1,"name":"shoes","price":30}}

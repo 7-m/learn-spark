@@ -8,7 +8,7 @@ import org.apache.spark.sql.types.StructType;
 /**
  * Read a json and store in a dataframe.
  */
-public class JsonCols {
+public class ReadJson {
     public static void main(String[] args) {
         var sess = SparkSession.builder().appName("json structs")
                 .config("spark.sql.streaming.schemaInference", false)

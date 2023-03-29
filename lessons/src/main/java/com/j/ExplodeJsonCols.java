@@ -9,7 +9,7 @@ import java.util.concurrent.TimeoutException;
 
 import static org.apache.spark.sql.functions.*;
 
-public class StructColumns {
+public class ExplodeJsonCols {
     public static void main(String[] args) throws TimeoutException, StreamingQueryException {
         SparkSession session = SparkSession.builder().appName("srtuct terust").master("local[1]").getOrCreate();
         session.sparkContext().setLogLevel("warn");
